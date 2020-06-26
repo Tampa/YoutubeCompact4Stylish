@@ -1,6 +1,8 @@
 # YoutubeCompact4Stylish
 A style override for Youtube usable in Stylish and other CSS style changers
 
+![Preview](https://i.imgur.com/noOm3mt.png)
+
 # Why does this exist?
 Because whoever is doing the styling at Youtube is head over heels in love with whitespace and wasting tons of space on the page.
 The design is unable to hold the most relevant information without requiring the user to scroll.
