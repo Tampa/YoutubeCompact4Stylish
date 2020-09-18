@@ -160,3 +160,39 @@ h3.ytd-grid-video-renderer {
 	color: var(--yt-spec-text-primary);
 	margin: 0px 0 0px;
 }
+ytd-browse[page-subtype="playlist"] ytd-two-column-browse-results-renderer.ytd-browse {
+	width: 100%;
+	min-width: 0;
+	box-sizing: border-box;
+	padding-left: 617px;
+	margin: 0;
+	background-color: var(--yt-spec-general-background-b);
+	min-height: calc(100vh - var(--ytd-toolbar-height));
+}
+ytd-playlist-sidebar-renderer {
+	display: block;
+	width: 617px;
+	padding: 24px 32px;
+	box-sizing: border-box;
+	background-color: var(--yt-spec-general-background-a);
+	overflow: auto;
+	padding-left: 200px;
+}
+ytd-video-renderer[use-prominent-thumbs] ytd-thumbnail.ytd-video-renderer {
+	margin-right: 16px;
+	max-width: 220px;
+	min-width: 200px;
+}
+ytd-button-renderer.ytd-item-section-renderer, ytd-compact-radio-renderer.ytd-item-section-renderer, ytd-compact-video-renderer.ytd-item-section-renderer, ytd-compact-movie-renderer.ytd-item-section-renderer, ytd-compact-playlist-renderer.ytd-item-section-renderer, ytd-emergency-onebox-renderer.ytd-item-section-renderer, ytd-movie-renderer.ytd-item-section-renderer, ytd-playlist-renderer.ytd-item-section-renderer, ytd-show-renderer.ytd-item-section-renderer, ytd-radio-renderer.ytd-item-section-renderer, yt-search-no-results-renderer.ytd-item-section-renderer, ytd-video-renderer.ytd-item-section-renderer, ytd-channel-renderer.ytd-item-section-renderer, ytd-promoted-sparkles-text-search-renderer.ytd-item-section-renderer, ytd-web-answer-renderer.ytd-item-section-renderer, ytd-clarification-renderer.ytd-item-section-renderer, ytd-fact-check-renderer.ytd-item-section-renderer, ytd-info-panel-container-renderer.ytd-item-section-renderer {
+	margin-top: var(--ytd-item-section-item-margin, 6px);
+}
+ytd-playlist-renderer[use-prominent-thumbs] ytd-playlist-thumbnail.ytd-playlist-renderer {
+	margin-right: 16px;
+	max-width: 180px;
+	min-width: 220px;
+}
+ytd-channel-renderer[use-prominent-thumbs] #avatar-section.ytd-channel-renderer {
+	margin-right: 16px;
+	max-width: 120px;
+	min-width: 100px;
+}
